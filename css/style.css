@@ -150,13 +150,20 @@ body {
   grid-gap: 7rem; }
 
 .home {
-  background-color: #f9f7f6; }
+  background-color: #f9f7f6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
   .home__img {
-    width: 100%; }
+    width: 100%;
+    grid-column: 1 / -1; }
+  .home__name {
+    grid-column: 1 / -1; }
   .home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
     fill: #c69963;
     height: 2rem;
     width: 2rem; }
+  .home__btn {
+    grid-column: 1 / -1; }
 
 .gallery {
   background-color: #54483a;
