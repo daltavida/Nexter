@@ -94,7 +94,7 @@ body {
   .nav-btn::before {
     transform: translateY(-1.5rem); }
   .nav-btn::after {
-    transform: translateY(1.5rem); }
+    transform: translateY(1.3rem); }
 
 .header {
   background-color: #54483a;
