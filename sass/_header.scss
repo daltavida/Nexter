@@ -13,7 +13,9 @@
 
   display: grid;
   grid-template-rows: 1fr min-content 6rem 1fr;
+  grid-template-columns: max-content;
   grid-row-gap: 1.5rem;
+  justify-content: center;
 
   &__btn {
     align-self: start;
