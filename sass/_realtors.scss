@@ -1,4 +1,14 @@
 .realtors {
   background-color: $color-secondary;
   grid-column: col-start 7 / full-end;
+
+  &__list {
+    display: grid;
+  }
+
+  &__img {
+    width: 7rem;
+    border-radius: 50%;
+    display: block;
+  }
 }
