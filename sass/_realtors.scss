@@ -4,6 +4,9 @@
 
   &__list {
     display: grid;
+    grid-template-columns: min-content max-content;
+    grid-column-gap: 20px;
+    grid-row-gap: 5vh;
   }
 
   &__img {

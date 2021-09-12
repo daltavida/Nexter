@@ -145,7 +145,10 @@ body {
   background-color: #101d2c;
   grid-column: col-start 7 / full-end; }
   .realtors__list {
-    display: grid; }
+    display: grid;
+    grid-template-columns: min-content max-content;
+    grid-column-gap: 20px;
+    grid-row-gap: 5vh; }
   .realtors__img {
     width: 7rem;
     border-radius: 50%;
